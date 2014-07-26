@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/andreabadesso/.nvm/v0.11.13/bin/node',
+1 verbose cli   '/Users/andreabadesso/.nvm/v0.11.13/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/nodejitsu/node-http-proxy.git' ]
+2 info using npm@1.4.9
+3 info using node@v0.11.13
+4 warn package.json OLXProxy@0.0.0 No repository field.
+5 warn package.json OLXProxy@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'https://github.com/nodejitsu/node-http-proxy.git', null ]
+8 verbose cache add name=undefined spec="https://github.com/nodejitsu/node-http-proxy.git" args=["https://github.com/nodejitsu/node-http-proxy.git",null]
+9 verbose parsed url { protocol: 'https:',
+9 verbose parsed url   slashes: true,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: 'github.com',
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: 'github.com',
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '/nodejitsu/node-http-proxy.git',
+9 verbose parsed url   path: '/nodejitsu/node-http-proxy.git',
+9 verbose parsed url   href: 'https://github.com/nodejitsu/node-http-proxy.git' }
+10 silly lockFile 3210c729-om-nodejitsu-node-http-proxy-git https://github.com/nodejitsu/node-http-proxy.git
+11 verbose lock https://github.com/nodejitsu/node-http-proxy.git /Users/andreabadesso/.npm/3210c729-om-nodejitsu-node-http-proxy-git.lock
+12 verbose addRemoteTarball [ 'https://github.com/nodejitsu/node-http-proxy.git', null ]
+13 info retry fetch attempt 1 at 21:39:12
+14 verbose fetch to= /var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz
+15 http GET https://github.com/nodejitsu/node-http-proxy.git
+16 http 200 https://github.com/nodejitsu/node-http-proxy.git
+17 verbose tar unpack /var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz
+18 silly lockFile 0a7092ab-6fa41c795tmp-fb2cdc5b3721package tar:///Users/andreabadesso/.npm/tmp_b176fa41c795tmp_fb2cdc5b3721package
+19 verbose lock tar:///Users/andreabadesso/.npm/tmp_b176fa41c795tmp_fb2cdc5b3721package /Users/andreabadesso/.npm/0a7092ab-6fa41c795tmp-fb2cdc5b3721package.lock
+20 silly lockFile 24a4ec40-52897-0-2266314011067152-tmp-tgz tar:///var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz
+21 verbose lock tar:///var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz /Users/andreabadesso/.npm/24a4ec40-52897-0-2266314011067152-tmp-tgz.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 error not a package /var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz
+24 silly lockFile 0a7092ab-6fa41c795tmp-fb2cdc5b3721package tar:///Users/andreabadesso/.npm/tmp_b176fa41c795tmp_fb2cdc5b3721package
+25 silly lockFile 0a7092ab-6fa41c795tmp-fb2cdc5b3721package tar:///Users/andreabadesso/.npm/tmp_b176fa41c795tmp_fb2cdc5b3721package
+26 silly lockFile 24a4ec40-52897-0-2266314011067152-tmp-tgz tar:///var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz
+27 silly lockFile 24a4ec40-52897-0-2266314011067152-tmp-tgz tar:///var/folders/gj/2v09tysx5qsbv9d3nqpnx7ch0000gp/T/npm-4464-XPmL30cd/1406335152897-0.2266314011067152/tmp.tgz
+28 silly lockFile 3210c729-om-nodejitsu-node-http-proxy-git https://github.com/nodejitsu/node-http-proxy.git
+29 silly lockFile 3210c729-om-nodejitsu-node-http-proxy-git https://github.com/nodejitsu/node-http-proxy.git
+30 error Error: ENOENT, open '/Users/andreabadesso/.npm/tmp_b176fa41c795tmp_fb2cdc5b3721package/package.json'
+30 error     at Error (native)
+31 error If you need help, you may report this *entire* log,
+31 error including the npm and node versions, at:
+31 error     <http://github.com/npm/npm/issues>
+32 error System Darwin 14.0.0
+33 error command "/Users/andreabadesso/.nvm/v0.11.13/bin/node" "/Users/andreabadesso/.nvm/v0.11.13/bin/npm" "install" "https://github.com/nodejitsu/node-http-proxy.git"
+34 error cwd /Users/andreabadesso/Dev/Lab21k/Proxy
+35 error node -v v0.11.13
+36 error npm -v 1.4.9
+37 error path /Users/andreabadesso/.npm/tmp_b176fa41c795tmp_fb2cdc5b3721package/package.json
+38 error code ENOENT
+39 error errno -2
+40 verbose exit [ -2, true ]

@@ -1,0 +1,11 @@
+{
+  "name": "OLXProxy",
+  "version": "0.0.0",
+  "description": "Transparent proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
